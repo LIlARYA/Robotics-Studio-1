@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240818-0527-Experimental"
+	Name="arya-HP-ProBook-640-G4"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="arya-HP-ProBook-640-G4"
+	OSRelease="5.15.0-100-generic"
+	OSVersion="#110-Ubuntu SMP Wed Feb 7 13:27:48 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="142"
+	ProcessorCacheSize="8192"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15833"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1508.5"
+	>
+	<Testing>
+		<StartDateTime>Aug 18 15:27 AEST</StartDateTime>
+		<StartTestTime>1723958852</StartTestTime>
+		<TestList/>
+		<EndDateTime>Aug 18 15:27 AEST</EndDateTime>
+		<EndTestTime>1723958852</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

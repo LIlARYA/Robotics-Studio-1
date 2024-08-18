@@ -1,0 +1,4 @@
+source;share/sp1_turtle_laser/local_setup.bash
+source;share/sp1_turtle_laser/local_setup.dsv
+source;share/sp1_turtle_laser/local_setup.sh
+source;share/sp1_turtle_laser/local_setup.zsh
