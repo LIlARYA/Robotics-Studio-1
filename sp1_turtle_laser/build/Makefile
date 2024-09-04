@@ -197,6 +197,43 @@ sp1_turtle_laser_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sp1_turtle_laser_uninstall.dir/build.make CMakeFiles/sp1_turtle_laser_uninstall.dir/build
 .PHONY : sp1_turtle_laser_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named turtle_laser
+
+# Build rule for target.
+turtle_laser: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_laser
+.PHONY : turtle_laser
+
+# fast build rule for target.
+turtle_laser/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_laser.dir/build.make CMakeFiles/turtle_laser.dir/build
+.PHONY : turtle_laser/fast
+
+src/turtleLaser.o: src/turtleLaser.cpp.o
+.PHONY : src/turtleLaser.o
+
+# target to build an object file
+src/turtleLaser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_laser.dir/build.make CMakeFiles/turtle_laser.dir/src/turtleLaser.cpp.o
+.PHONY : src/turtleLaser.cpp.o
+
+src/turtleLaser.i: src/turtleLaser.cpp.i
+.PHONY : src/turtleLaser.i
+
+# target to preprocess a source file
+src/turtleLaser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_laser.dir/build.make CMakeFiles/turtle_laser.dir/src/turtleLaser.cpp.i
+.PHONY : src/turtleLaser.cpp.i
+
+src/turtleLaser.s: src/turtleLaser.cpp.s
+.PHONY : src/turtleLaser.s
+
+# target to generate assembly for a file
+src/turtleLaser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_laser.dir/build.make CMakeFiles/turtle_laser.dir/src/turtleLaser.cpp.s
+.PHONY : src/turtleLaser.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... sp1_turtle_laser_uninstall"
 	@echo "... uninstall"
+	@echo "... turtle_laser"
+	@echo "... src/turtleLaser.o"
+	@echo "... src/turtleLaser.i"
+	@echo "... src/turtleLaser.s"
 .PHONY : help
 
 

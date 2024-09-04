@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/arya/ros2_ws/src/Robotics-Studio-1/sp1_turtle_laser/bui
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/turtle_laser.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/sp1_turtle_laser_uninstall.dir/clean
+clean: CMakeFiles/turtle_laser.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -126,6 +127,32 @@ sp1_turtle_laser_uninstall: CMakeFiles/sp1_turtle_laser_uninstall.dir/rule
 CMakeFiles/sp1_turtle_laser_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sp1_turtle_laser_uninstall.dir/build.make CMakeFiles/sp1_turtle_laser_uninstall.dir/clean
 .PHONY : CMakeFiles/sp1_turtle_laser_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/turtle_laser.dir
+
+# All Build rule for target.
+CMakeFiles/turtle_laser.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_laser.dir/build.make CMakeFiles/turtle_laser.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_laser.dir/build.make CMakeFiles/turtle_laser.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arya/ros2_ws/src/Robotics-Studio-1/sp1_turtle_laser/build/CMakeFiles --progress-num=1,2 "Built target turtle_laser"
+.PHONY : CMakeFiles/turtle_laser.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/turtle_laser.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arya/ros2_ws/src/Robotics-Studio-1/sp1_turtle_laser/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/turtle_laser.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arya/ros2_ws/src/Robotics-Studio-1/sp1_turtle_laser/build/CMakeFiles 0
+.PHONY : CMakeFiles/turtle_laser.dir/rule
+
+# Convenience name for target.
+turtle_laser: CMakeFiles/turtle_laser.dir/rule
+.PHONY : turtle_laser
+
+# clean rule for target.
+CMakeFiles/turtle_laser.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_laser.dir/build.make CMakeFiles/turtle_laser.dir/clean
+.PHONY : CMakeFiles/turtle_laser.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

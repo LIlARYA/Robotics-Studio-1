@@ -1,0 +1,9 @@
+/home/arya/ros2_ws/src/Robotics-Studio-1/move_turtle/build/CMakeFiles/uninstall.dir
+/home/arya/ros2_ws/src/Robotics-Studio-1/move_turtle/build/CMakeFiles/move_turtle_uninstall.dir
+/home/arya/ros2_ws/src/Robotics-Studio-1/move_turtle/build/CMakeFiles/test.dir
+/home/arya/ros2_ws/src/Robotics-Studio-1/move_turtle/build/CMakeFiles/edit_cache.dir
+/home/arya/ros2_ws/src/Robotics-Studio-1/move_turtle/build/CMakeFiles/rebuild_cache.dir
+/home/arya/ros2_ws/src/Robotics-Studio-1/move_turtle/build/CMakeFiles/list_install_components.dir
+/home/arya/ros2_ws/src/Robotics-Studio-1/move_turtle/build/CMakeFiles/install.dir
+/home/arya/ros2_ws/src/Robotics-Studio-1/move_turtle/build/CMakeFiles/install/local.dir
+/home/arya/ros2_ws/src/Robotics-Studio-1/move_turtle/build/CMakeFiles/install/strip.dir
