@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
     cv::Size newSize(map1.cols / 2.5, map1.rows / 2.5);
     cv::resize(map1, map1, newSize);
 
-    // // Calculate the new size for map2 while maintaining the aspect ratio
+    // Calculate the new size for map2 while maintaining the aspect ratio
     double scale = 2; // Adjust this scale factor as needed
     cv::Size newMap2Size(map2.cols * scale, map2.rows * scale);
     cv::resize(map2, map2, newMap2Size);
@@ -38,10 +38,13 @@ int main(int argc, char** argv) {
     int y_offset = (map1.rows - map2.rows) / 2;
 
     // Define the region of interest (ROI) in the overlay where the second map will be placed
-    cv::Rect roi(x_offset+6, y_offset-8, map2.cols, map2.rows);
+    cv::Rect roi(x_offset + 7, y_offset - 9, map2.cols, map2.rows);
 
     // Overlay the second map onto the first map within the ROI
     cv::addWeighted(map1(roi), alpha, map2, beta, 0.0, overlay(roi));
+
+    // Save the overlay as a PNG file
+    cv::imwrite("overlay.png", overlay);
 
     // Display the result
     cv::imshow("Overlay", overlay);
